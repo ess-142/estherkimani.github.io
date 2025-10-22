@@ -1,11 +1,16 @@
+# Use the Cayman theme from GitHub Pages
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
-gem "github-pages", group: :jekyll_plugins
 
-title: [ESTHER KIMANI PORTFOLIO]
-description: 💻 Data Analyst | Transforming Data into Actionable Insights 📊 | Passionate about Analytics & Visualization 📈 | Skilled in Python, SQL, Power BI, and Tableau ⚙ | Certified in Data Science (Harvard Online) 🎓 | Driving Innovation & Smart Decisions Across Industries 🚀
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+# Site settings
+title: ESTHER KIMANI PORTFOLIO
+description: 💻 Data Analyst | Transforming Data into Actionable Insights 📊 | Passionate about Analytics & Visualization 📈 | Skilled in Python, SQL, Power BI, and Tableau ⚙ | Certified in Data Science (Harvard Online) 🎓 | Driving Innovation & Smart Decisions Across Industries 🚀
+
+# Optional settings
+show_downloads: false
+
 github:
-  zip_url: http://example.com/download.zip
-  another_url: another value
+  zip_url: https://github.com/ess-142
+  another_url: https://public.tableau.com/app/profile/esther.kimani
+
